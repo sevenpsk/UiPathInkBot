@@ -1,0 +1,157 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="navigate_free_ink_menu" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="728,1169" sap2010:WorkflowViewState.IdRef="navigate_free_ink_menu_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="navigate_free_ink_menu" sap:VirtualizedContainerService.HintSize="518,964" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,872" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="434,780" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="b69e3596a4f409318a439f0b2bed46c6" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+        <ui:WindowScope.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,634" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="c2b42ec8-6e8b-4f77-afbe-5b6827452961">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAZCAYAAAAmNZ4aAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGpSURBVEhL7ZbbcoJADIb7/u/kETx2lFGUoq1irYNUsVQFDxxMSVgoKnpBZ6wXfjMZ2V3MH7KZzT7BP3Gfwq7rwW63T222bTNP51wV7nReIJvlIJMppjKer/nBu8zbMVeF12sTJhM1tc1mczgcDszbMY/iOgKLa7+3U5vjOMzTOfdZXMvlCkajMShKOptOtUdxRTyEb8ZD+GYkCuOp0+u9sRHAarWmueFwxGb+TqJwoVCGfL7ERgCtVgcEQYyEPc8DXV/4bU+PzmPTNGG73cJi8QWWtaE5w/im1mhZFo3jJArzfBUqlWdqEggGIUm9SLhUqoEoSpSVYrFMgeAazmOAKCjLr/64TsHlcjz19jiJwhxX9c/oD+h2ZXLSbIp+w5AjYXQUwnEVcoprjUaLzQZZC69AGCQ2nDgXhTGFuK+YZmwWceH4NmB2QmEMNATfGY8nkc3nOlsJuCiM4JehA+wwp188GCigaZ/UNjHIU2FMeb3eoH3HfTaMJVsJSBRutyX6xXtTvz+gZ0V5B1XV6NlxXBLBbGw2QSGp6pRaaBz8jyC06V28GPwC8AMq1FrFpCrthgAAAABJRU5ErkJggg==" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="9f9b2c75-8507-4b36-b856-e0d44a034bc4">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+              <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+                <ui:ClickImage.CursorPosition>
+                  <ui:CursorPosition Position="Center">
+                    <ui:CursorPosition.OffsetX>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetX>
+                    <ui:CursorPosition.OffsetY>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:CursorPosition.OffsetY>
+                  </ui:CursorPosition>
+                </ui:ClickImage.CursorPosition>
+                <ui:ClickImage.Image>
+                  <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+                </ui:ClickImage.Image>
+                <ui:ClickImage.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b5f101a9-d74b-4689-9add-5015efcd61da">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:ClickImage.Target>
+              </ui:ClickImage>
+            </Sequence>
+          </ActivityAction>
+        </ui:WindowScope.Body>
+      </ui:WindowScope>
+    </Sequence>
+  </Sequence>
+</Activity>

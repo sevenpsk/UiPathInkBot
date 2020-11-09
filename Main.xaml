@@ -1,0 +1,366 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="743,933" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="31">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="54">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence sap:VirtualizedContainerService.HintSize="753,728" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <StateMachine InitialState="{x:Reference __ReferenceID1}" DisplayName="State Machine" sap:VirtualizedContainerService.HintSize="711,636" sap2010:WorkflowViewState.IdRef="StateMachine_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+          <x:Double x:Key="StateContainerWidth">677</x:Double>
+          <x:Double x:Key="StateContainerHeight">600</x:Double>
+          <av:PointCollection x:Key="ConnectorLocation">287,77.5 287,107.5 300.1,107.5 300.1,149.5</av:PointCollection>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <State x:Name="__ReferenceID1" DisplayName="Init - open an app" sap:VirtualizedContainerService.HintSize="134,61" sap2010:WorkflowViewState.IdRef="State_3">
+        <State.Entry>
+          <Sequence sap:VirtualizedContainerService.HintSize="376,828" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke OpenApp workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="OpenApp.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="Execute Open App Susseccessfully" />
+            <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_5" />
+            <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke navigate_free_ink_menu workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="navigate_free_ink_menu.xaml">
+              <ui:InvokeWorkflowFile.Arguments>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:InvokeWorkflowFile.Arguments>
+            </ui:InvokeWorkflowFile>
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="Execute navigate to InkMenu Successfully" />
+            <Delay Duration="00:00:04" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:ImageFound DisplayName="Find image watch vdo screen" Found="[InkMascotExist]" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ImageFound_3">
+              <ui:ImageFound.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+              </ui:ImageFound.Image>
+              <ui:ImageFound.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ec406e23-c04e-4325-bdf6-c9e1f86e103a" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ImageFound.Target>
+            </ui:ImageFound>
+          </Sequence>
+        </State.Entry>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">213,149.5</av:Point>
+            <av:Size x:Key="ShapeSize">134,61</av:Size>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <State.Transitions>
+          <Transition DisplayName="Success" sap:VirtualizedContainerService.HintSize="450,505" sap2010:WorkflowViewState.IdRef="Transition_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <av:PointCollection x:Key="ConnectorLocation">347,186.1 377,186.1 377,333.05 383,333.05</av:PointCollection>
+                <x:Int32 x:Key="SrcConnectionPointIndex">44</x:Int32>
+                <x:Int32 x:Key="DestConnectionPointIndex">41</x:Int32>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Transition.To>
+              <State x:Name="__ReferenceID0" DisplayName="Run click ads" sap:VirtualizedContainerService.HintSize="134,61" sap2010:WorkflowViewState.IdRef="State_2">
+                <State.Entry>
+                  <Sequence sap:VirtualizedContainerService.HintSize="563,941" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Boolean" Name="WatchVDOBtn" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:ImageFound DisplayName="Image Exists - watch VDO" Found="[WatchVDOBtn]" sap:VirtualizedContainerService.HintSize="521,106" sap2010:WorkflowViewState.IdRef="ImageFound_11">
+                      <ui:ImageFound.Image>
+                        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+                      </ui:ImageFound.Image>
+                      <ui:ImageFound.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="677b4a19-90d2-474f-8e43-2a78d3e42979" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:ImageFound.Target>
+                    </ui:ImageFound>
+                    <If Condition="[WatchVDOBtn]" sap:VirtualizedContainerService.HintSize="521,557" sap2010:WorkflowViewState.IdRef="If_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,409" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                            <ui:ClickImage.CursorPosition>
+                              <ui:CursorPosition Position="Center">
+                                <ui:CursorPosition.OffsetX>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetX>
+                                <ui:CursorPosition.OffsetY>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:CursorPosition.OffsetY>
+                              </ui:CursorPosition>
+                            </ui:ClickImage.CursorPosition>
+                            <ui:ClickImage.Image>
+                              <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+                            </ui:ClickImage.Image>
+                            <ui:ClickImage.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="df7ef2ec-eb59-489e-8877-78543940eb27" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:ClickImage.Target>
+                          </ui:ClickImage>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="Watch VDO click successfully" />
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_10" />
+                        </Sequence>
+                      </If.Then>
+                    </If>
+                    <ui:ImageFound DisplayName="Image Exists 'nox.exe  NoxPlayer'" Found="[NoOffer_btn]" sap:VirtualizedContainerService.HintSize="521,106" sap2010:WorkflowViewState.IdRef="ImageFound_12">
+                      <ui:ImageFound.Image>
+                        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+                      </ui:ImageFound.Image>
+                      <ui:ImageFound.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0a62275e-1832-422a-aedf-33589d4fa82f" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:ImageFound.Target>
+                    </ui:ImageFound>
+                  </Sequence>
+                </State.Entry>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <av:Point x:Key="ShapeLocation">383,299.5</av:Point>
+                    <av:Size x:Key="ShapeSize">134,61</av:Size>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <State.Transitions>
+                  <Transition DisplayName="no offer - wait" sap:VirtualizedContainerService.HintSize="666,1303" sap2010:WorkflowViewState.IdRef="Transition_8">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <av:PointCollection x:Key="ConnectorLocation">470.1,360.5 470.1,374.75 547,374.75 547,314.75 517,314.75</av:PointCollection>
+                        <x:Int32 x:Key="SrcConnectionPointIndex">51</x:Int32>
+                        <x:Int32 x:Key="DestConnectionPointIndex">16</x:Int32>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Transition.To>
+                      <x:Reference>__ReferenceID0</x:Reference>
+                    </Transition.To>
+                    <Transition.Action>
+                      <Sequence sap:VirtualizedContainerService.HintSize="563,908" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="521,61" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="no offer - wait 5 seconds" />
+                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="521,22" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                        <Assign sap:VirtualizedContainerService.HintSize="521,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[Stuck_Counter]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[Stuck_Counter+1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="521,61" sap2010:WorkflowViewState.IdRef="WriteLine_15" Text="[&quot;Stuck count:&quot; + Stuck_Counter.ToString]" />
+                        <If Condition="[Stuck_Counter &gt; 6]" sap:VirtualizedContainerService.HintSize="521,452" sap2010:WorkflowViewState.IdRef="If_2">
+                          <If.Then>
+                            <Sequence sap:VirtualizedContainerService.HintSize="376,304" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke RefreshPage workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="RefreshPage.xaml">
+                                <ui:InvokeWorkflowFile.Arguments>
+                                  <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                </ui:InvokeWorkflowFile.Arguments>
+                              </ui:InvokeWorkflowFile>
+                              <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_8">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:Int32">[Stuck_Counter]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:Int32">0</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </If.Then>
+                        </If>
+                      </Sequence>
+                    </Transition.Action>
+                    <Transition.Condition>
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="NoOffer_btn = True" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_3" />
+                    </Transition.Condition>
+                  </Transition>
+                  <Transition DisplayName="in video wait" sap:VirtualizedContainerService.HintSize="479,1014" sap2010:WorkflowViewState.IdRef="Transition_11">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <av:PointCollection x:Key="ConnectorLocation">383,348.3 353,348.3 353,390.5 436.6,390.5 436.6,360.5</av:PointCollection>
+                        <x:Int32 x:Key="SrcConnectionPointIndex">61</x:Int32>
+                        <x:Int32 x:Key="DestConnectionPointIndex">31</x:Int32>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Transition.To>
+                      <x:Reference>__ReferenceID0</x:Reference>
+                    </Transition.To>
+                    <Transition.Action>
+                      <Sequence sap:VirtualizedContainerService.HintSize="376,619" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_17" Text="Delay  - and click back" />
+                        <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Delay_9" />
+                        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke ClickCornertoClose workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="ClickCornertoClose.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                          </ui:InvokeWorkflowFile.Arguments>
+                        </ui:InvokeWorkflowFile>
+                        <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke clickClaimInk workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="clickClaimInk.xaml">
+                          <ui:InvokeWorkflowFile.Arguments>
+                            <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                          </ui:InvokeWorkflowFile.Arguments>
+                        </ui:InvokeWorkflowFile>
+                        <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_7">
+                          <Assign.To>
+                            <OutArgument x:TypeArguments="x:Int32">[Stuck_Counter]</OutArgument>
+                          </Assign.To>
+                          <Assign.Value>
+                            <InArgument x:TypeArguments="x:Int32">[Stuck_Counter+1]</InArgument>
+                          </Assign.Value>
+                        </Assign>
+                      </Sequence>
+                    </Transition.Action>
+                    <Transition.Condition>
+                      <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="NoOffer_btn = False" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_4" />
+                    </Transition.Condition>
+                  </Transition>
+                </State.Transitions>
+              </State>
+            </Transition.To>
+            <Transition.Action>
+              <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="Success Flow Execute" />
+            </Transition.Action>
+            <Transition.Condition>
+              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="InkMascotExist" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
+            </Transition.Condition>
+          </Transition>
+        </State.Transitions>
+      </State>
+      <x:Reference>__ReferenceID0</x:Reference>
+      <StateMachine.Variables>
+        <Variable x:TypeArguments="x:Boolean" Default="False" Name="InkMascotExist" />
+        <Variable x:TypeArguments="x:Boolean" Name="NoOffer_btn" />
+        <Variable x:TypeArguments="x:Int32" Name="Stuck_Counter" />
+      </StateMachine.Variables>
+    </StateMachine>
+  </Sequence>
+</Activity>

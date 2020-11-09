@@ -1,0 +1,82 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="clickClaimInk" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="728,651" sap2010:WorkflowViewState.IdRef="clickClaimInk_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="clickClaimInk" sap:VirtualizedContainerService.HintSize="376,246" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ClickImage DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:ClickImage.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:ClickImage.CursorPosition>
+      <ui:ClickImage.Image>
+        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGAAAAAoCAYAAAABk/85AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAORSURBVGhD7ZrfS1NhHMb7a0ydP4ZKP7RM7UqIUpFAwQrBINCgGwtvvAn0MvBCJCRDIVhemJCiRV504cAiRw4zpyVJdmFTp3PKpt98XjvDre/5tdF5hb0PfPCc9935vu95np3je7adISWpUgFIlgpAslQAkqUCkCwVgGSlFcDBwQEtLX2njo7HlJV1LuPAeeP84UOqSjmAsbE3VFJylZ1YpgEf4EcqSimAgoLL7EQyHfhiV7YCmJubp8LCcnZwxTHwx+//8tcxc1kOAOZzAyp44JcVWQpge3uHcnIusgMpeOAXfDOTaQDRaJTKy6+xgyiMgW/wz0imAQwNvWSLK6wB/4xkGADWt1xRhT2MnhMMA+jtfcYWVNgDPurJMIDq6ptsQRnU19+h+fmvFIvFaHFxmRob7yb05+dfEnOenp6Jt7lcpbSzExbtJ1/rNPBRT7oBRCJ7lJ19gS3oJGfPniefzy/mtLb2i7zej7S6+lPs+/0L8ddxAWApuL+/f9Qn98ERPsJPTroBLCwE2GJO09nZLebT3z+U0N7T81S0d3U9EfvJAQwPj9Lh4SE1NLQkHCcL+MlJNwCv9wNbyGlWVn6I+XB9EK4GbJ8MoLX1odju7j4O5zQAPznpBjA+/pYt5CS4/UCRSITt392NHL3LSVziWgA+35xYdQQCy+wxsoCfnHQDmJycYgs5iRZAKBRi+7e2QqIfT51aAFAotC3+VlRcZ4+TAfzkpBvAzMwntpDTrK//FvPh+qBgcENsawHMzn4mt/uKuDqCwU3KzS395zgZwE9OugEEAt/YQk7T1/dczKel5UFCe1PTPdE+OOgR+8n/hJub74v9gYEXCcfJAn5y0g0AwjqaK+YkuL9rH2pNTb2n9vZOmph4J/bxLtdelxwA0N51xcVV8TYZwEc9GQZQU9PEFnSavLwyGhl5LW43WFpubGzS6Oh4wu2FC8DtrqBwOEx7e/vxNhnARz0ZBoC1NFdQYQ/4qCfDACCXq4wtqrAG/DOSaQAnL2mFfeCfkUwDgOrqbrPFFcbANzNZCiAajVFRUSU7iIIHfsE3M1kKAMLKgxtIwQO/rMhyAFA4vKu+HzYB/sAnq7IVgKa2tkfs4JkOfLGrlAKAcIlVVdWwE8k04IPVW06yUg5AEz769XheUW3tLaqsvCF+J3kavkn7H+C8cH44T5yvxzOS1g9zobQDUEpPKgDJUgFIlgpAqoj+APT8A5j6QQehAAAAAElFTkSuQmCC" />
+      </ui:ClickImage.Image>
+      <ui:ClickImage.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b711a4dc-7ac5-4b97-a1d0-968fa319868f" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:ClickImage.Target>
+    </ui:ClickImage>
+  </Sequence>
+</Activity>

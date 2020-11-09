@@ -1,0 +1,136 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="RefreshPage" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="728,984" sap2010:WorkflowViewState.IdRef="RefreshPage_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="RefreshPage" sap:VirtualizedContainerService.HintSize="418,779" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="376,687" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="perform refresh page" />
+      <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:ClickImage.CursorPosition>
+          <ui:CursorPosition Position="Center">
+            <ui:CursorPosition.OffsetX>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:CursorPosition.OffsetX>
+            <ui:CursorPosition.OffsetY>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:CursorPosition.OffsetY>
+          </ui:CursorPosition>
+        </ui:ClickImage.CursorPosition>
+        <ui:ClickImage.Image>
+          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAACwAAAAmCAYAAAC/H3lnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVFhH7dVPSwJBGMfxXo1/75UlvoCwq6shiG5CkNSxkwdFPUQlegnqfXjpVQi9B2l11TRX3dRfPsN0zMPuPJAwXxgEH5QPy+zMAfYsDeZOg7nTYO40mDsN5k6DN5sNer0P8cmRUvBy6aJef0IgcIhu911+qzZl4MVigVrtEeFwDIXCDRxnLidqUwJ23W+BDYWOkctdYzZz5ER9vsGu66LRaCISiSGfL2E4HMkJT77AhK1WH8SeJex0+iUnfHkG0zagJ0vYYPAIpnmLUulu56pU7jGf+9vbnsH0UmWzVwJMKx4/QyJxvnMlkxcYjz/lP3jL15awrAFSKVOAy+UG+v0BbHv055pMpvKX3vP90hE6kykiGj1Fs/mM1WolJzz5BlOETqeL4gxutV7YbjlKCZiyrD4Mw9webydot1+xXq/lRG3KwBSdwYZxKZ70v7+af7PtITqdt+0pwnPbKQdzp8HcaTB3GsydBnOnwdztGRj4Af+llzJgKtyLAAAAAElFTkSuQmCC" />
+        </ui:ClickImage.Image>
+        <ui:ClickImage.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="64b538e8-4ab6-481c-a94b-0b31d47392ae" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+            <ui:Target.WaitForReady>
+              <InArgument x:TypeArguments="ui:WaitForReady" />
+            </ui:Target.WaitForReady>
+          </ui:Target>
+        </ui:ClickImage.Target>
+      </ui:ClickImage>
+      <ui:ImageFound Found="{x:Null}" DisplayName="Image Exists 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ImageFound_1">
+        <ui:ImageFound.Image>
+          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="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" />
+        </ui:ImageFound.Image>
+        <ui:ImageFound.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9d1aa2b7-3a01-497b-98ca-8aa88e1e3520" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+            <ui:Target.WaitForReady>
+              <InArgument x:TypeArguments="ui:WaitForReady" />
+            </ui:Target.WaitForReady>
+          </ui:Target>
+        </ui:ImageFound.Target>
+      </ui:ImageFound>
+      <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'nox.exe  NoxPlayer'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:ClickImage.CursorPosition>
+          <ui:CursorPosition Position="Center">
+            <ui:CursorPosition.OffsetX>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:CursorPosition.OffsetX>
+            <ui:CursorPosition.OffsetY>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:CursorPosition.OffsetY>
+          </ui:CursorPosition>
+        </ui:ClickImage.CursorPosition>
+        <ui:ClickImage.Image>
+          <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJMAAAApCAYAAAAxtBsGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAW1SURBVHhe7Zn5UxRHFMfz16l4oKW4iIAxAlKAUAgoRyBARQxKfgBi8IAIRclRKSKQaAhECBrAEtAICMao3EG5F1CIXC/zffTgsiyB3R2sZPI+VVO7/WZ6d6fn2+99u/cjEgSDEDEJhiFiEgxDxCQYhohJMAwRk2AYIibBMERMgmGImATDEDEJhiFiEgzjg4ppeXmZZmfnaGRkjKamZlRUMAvbKqalpWWam/uLXr0aptu3f6bU1C8pICCSdu8+ShERCbS4uKiuFMzAtojJarVSfX0jZWZeo9DQsyyeHTss5OHho4noUwoKiiJPz2M0MDCkeghmwBAxTU1NU1tbJ5WUlNPp00ksnp07vfnVyytAe/WhoqLvaGLCyqWuoeEBC6u29lf1CYIZcFlMb9/OUlVVLcXFnaNDh07Qnj2+2nGU/PxCKTb2c6qoqNLK2wg9fNimhHNP9SQue3v3+lFW1jUVMTddXX9QXV0DTyQz47KYMDjIPp6e/hQScpZKS8upp6efsxS8ks7c3Bw9etRBMzNvuI0BTUz8ggWWn1/CMWdpaXnMZdP2wOd9KDBxMGm2SkZGDv9Gs3tEl8X0/Hm3ll186fLlgk1n3Pz8AnV39/Fgjo2NcyaLiUmhhYUFdYVz6GJ68uSpzfG7Orv9iJgc47KYkIF8fII1gx2rIhsDL4Us1t7eRaOjK2KKjk7WMtiSusI5dDE5orPzGZWV/cDvkT3h1XTRWq1TVF7+IxUX39SyZTvHbEFJLim5SZWVVbwK3Qh7MRUWfku9vQP83bhXfAe2QHTsxTQ4OMR9WlvbuG0W3DLg8EseHkfowoVsev16REXX09X1jMV0/XoxCygpKZ3NObIajLuzM/afxFRW9j0/7MjIJL4Gx/z8PK8cUQrxOw4fDuR4Wlqm6kWUkpLBMYslkK/DoZdme+zFhH7+/mGr34cD96djK6bJSSvt2+dHvr4hLk+mfytuienu3SZe5sN4h4fHbzibYdYxeNhnwoOdnp7hVR/6IT45OaWu3BqOPJP+cCEmtOHjbMF5PESdK1cKWFgQDH4T+iCj6OBalGJHOBITSv67d/Pcrqz8iWNYtQJdTBif/fuPsfDMiFtiAigheXk3aNeuI1rafqyia4Gn6u3t1/zSxKq/Qhm4dOkbfqDO+h1dTLm5N1YPlBegi6m//09u6yBmsQRReno2H/HxaRyD34KI8B4ZUz8PcdgKxhZHYjpzJlW1iO8VserqX7itiwkTB6tY2xJoJtwWE2hqauFyd+tWjYqsByu8jo6n1Nc3qCLEvgWD7OyqbrMyh3PDw6MqsoL+MBMS0tYcWBjAJ+E8MpHtufT0r1TvtTgSU3LyRdUivkfE7MV08OAn/Hr1aiHHzYbbYhofn1z1QC9e9Kjoel6+7OWBzMrK1fpM0P37reyZEIuK+kxdtTVcERNMP7ySLXqWRNlFH9u9MLDRatNVMcEz5eUV8XuYdbPhtpgaG5u5VCUmpmuDv95I44HBdHZ0dPGeFNI8Zij8EnwJPFdpaYW6emu4IiZsHCIOg42V5MmT0eTtHaTOkiboZO0+LByHn0MWQ/l0hDtiguk+fjyCJ99GBv+/ittiwhYB/AUGU1+dwGhiC6C6uk4rHank5XWCBw8rJGSI8PAEXn7jgcM/bLZPZQ88VnBwjGqtpaamns8hY9ozPf2GV3Aw5/BMzc2/qTMr3Llzj4UUFhZP2dm5vD/miLCwOK3/OdUi/r6cnHzVWtnhRwwTDRQUlHJ7cfH9+KB9/vz71aQZcFtMGHDMaj+/MP57BQOE2Y0shP/kDhz4mE6diuf9HogAJU4wJ26LCVkF+0codfoRGBjFJrOx8QFnH7PtpwiOcVtMYGhoWPMFX6s/d4dVVPi/YYiYgLO+RzAfholJEERMgmGImATDEDEJhiFiEgxDxCQYhohJMAwRk2AYIibBMERMgmGImASDIPobaTqLhlcpXn8AAAAASUVORK5CYII=" />
+        </ui:ClickImage.Image>
+        <ui:ClickImage.Target>
+          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="d19a2392-d184-4493-b9ab-1c14e558f53c" Selector="&lt;wnd app='nox.exe' cls='Qt5QWindowIcon' title='NoxPlayer' /&gt;">
+            <ui:Target.TimeoutMS>
+              <InArgument x:TypeArguments="x:Int32" />
+            </ui:Target.TimeoutMS>
+            <ui:Target.WaitForReady>
+              <InArgument x:TypeArguments="ui:WaitForReady" />
+            </ui:Target.WaitForReady>
+          </ui:Target>
+        </ui:ClickImage.Target>
+      </ui:ClickImage>
+    </Sequence>
+  </Sequence>
+</Activity>
